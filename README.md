@@ -73,32 +73,81 @@ prodesk-it/
 
 ## ⚙️ Setup Instructions
 
-Getting this project running locally takes less than a minute — no installs required.
+> ✅ **No installations. No build tools. No dependencies.** — This project runs entirely in the browser with zero setup overhead.
 
-**1. Clone the repository**
+---
+
+### 🖥️ Prerequisites
+
+Before you begin, make sure you have one of the following:
+
+| Tool | Purpose | Required? |
+|---|---|---|
+| Any modern browser | View the project | ✅ Yes |
+| [Git](https://git-scm.com/) | Clone the repository | ✅ Recommended |
+| [VS Code](https://code.visualstudio.com/) | Code editor | ⭐ Optional but preferred |
+| [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) | Auto-reload on save | ⭐ Optional but preferred |
+
+---
+
+### 📥 Method 1 — Clone with Git (Recommended)
+
+**Step 1 — Clone the repository**
 ```bash
-git clone https://github.com/your-username/prodesk-it.git
+git clone https://github.com/yogesh2002kashyap/landing-page-for-digital-marketing-company.git
 ```
 
-**2. Navigate into the project folder**
+**Step 2 — Navigate into the project folder**
 ```bash
-cd prodesk-it
+cd landing-page-for-digital-marketing-company
 ```
 
-**3. Open in your browser**
+**Step 3 — Open the project**
 
-Simply open `index.html` directly in any modern browser:
 ```bash
-# On macOS
+# On macOS / Linux
 open index.html
 
-# On Windows
+# On Windows (Command Prompt)
 start index.html
 
-# Or just drag index.html into your browser window
+# On Windows (PowerShell)
+Invoke-Item index.html
 ```
 
-> 💡 For the best development experience, use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension in VS Code.
+Or simply **drag and drop** `index.html` into any browser window.
+
+---
+
+### 📦 Method 2 — Download as ZIP (No Git Required)
+
+1. Visit the repository: [github.com/yogesh2002kashyap/landing-page-for-digital-marketing-company](https://github.com/yogesh2002kashyap/landing-page-for-digital-marketing-company)
+2. Click the green **`<> Code`** button → **Download ZIP**
+3. Extract the ZIP to your preferred folder
+4. Open `index.html` in your browser
+
+---
+
+### ⚡ Method 3 — VS Code + Live Server (Best Developer Experience)
+
+1. Open the cloned/extracted project folder in **VS Code**
+2. Install the **Live Server** extension *(if not already installed)*
+   - Go to Extensions (`Ctrl+Shift+X`) → Search `Live Server` → Install
+3. Right-click on `index.html` in the file explorer
+4. Select **"Open with Live Server"**
+5. The site opens at `http://127.0.0.1:5500` and **auto-reloads** on every save
+
+> 💡 Live Server is the recommended way to work on this project — it eliminates the need to manually refresh the browser every time you make a change.
+
+---
+
+### ✅ Verify It's Working
+
+Once opened, you should see:
+- [x] The **Hero section** loads with headline and CTA button
+- [x] The **dark/light mode toggle** switches themes correctly
+- [x] The layout is **responsive** — try resizing the browser window
+- [x] **Hover effects** are visible on cards and nav links
 
 ---
 
