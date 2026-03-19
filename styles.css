@@ -494,6 +494,11 @@ button:active,
     flex-wrap: wrap;
     height: auto;
     padding: 1rem 1.25rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    
   }
 
   .logo img {
@@ -504,7 +509,7 @@ button:active,
   /* Hero */
   .hero {
     padding: 4rem 1.25rem 3rem;
-    min-height: auto;
+    min-height: 100vh;
   }
 
   .hero-content h1 {
@@ -520,6 +525,7 @@ button:active,
     padding: 3rem 1.25rem;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
   }
 
   .service-card {
@@ -530,6 +536,7 @@ button:active,
   /* About */
   .about {
     padding: 3rem 1.25rem;
+    
   }
 
   .about-content h2 {
